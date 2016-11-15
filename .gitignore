@@ -241,5 +241,6 @@ ModelManifest.xml
 # FAKE - F# Make
 .fake/
 
+# Temporary Typescript's files
 **/Scripts/**/*.js
 **/Scripts/**/*.map
