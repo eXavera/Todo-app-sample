@@ -66,4 +66,4 @@ const mapDispatchToProps = function (dispatch: Dispatch<any>): AddFormProps {
     };
 };
 
-export default connect(null, mapDispatchToProps)(AddForm);
+export default connect(() => ({}), mapDispatchToProps)(AddForm);

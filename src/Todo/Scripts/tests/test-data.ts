@@ -10,7 +10,7 @@ export function createTodo(n: number): Todo {
 };
 
 export function createTodos(n = 3): Todo[] {
-    const result = [];
+    const result: Todo[] = [];
 
     for (let i = 1; i <= n; i++) {
         result.push(createTodo(i));
